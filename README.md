@@ -1,3 +1,109 @@
+# AI Assistant - Powered by Google Gemini
+
+A real-time AI assistant web application similar to ChatGPT, powered by Google Gemini API.
+
+## 🚀 Features
+
+- **Real-time AI Chat**: Interactive chat interface with Google Gemini
+- **Problem Solving**: Coding help, debugging, analysis, and explanations
+- **Modern UI**: Beautiful, responsive design with animations
+- **Code Highlighting**: Syntax highlighting for code blocks
+- **Quick Actions**: Pre-built prompts for common tasks
+- **Keyboard Shortcuts**: 
+  - `Ctrl+K` to focus input
+  - `Ctrl+L` to clear conversation
+  - `Enter` to send, `Shift+Enter` for new line
+
+## 🛠 Setup Instructions
+
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Start the Server
+**Option A: Using the batch file (Windows)**
+```bash
+start.bat
+```
+
+**Option B: Using npm**
+```bash
+npm start
+```
+
+**Option C: Direct node command**
+```bash
+node server.js
+```
+
+### 3. Open the Application
+Navigate to `http://localhost:3000` in your web browser.
+
+## 💡 Usage
+
+1. **Start Chatting**: Type your message in the input field
+2. **Quick Actions**: Use the quick action buttons for common tasks:
+   - 🔧 Coding Help
+   - 💡 Explain Concept  
+   - 🐛 Debug Issue
+   - 📊 Analysis
+3. **Code Support**: The AI can help with programming in any language
+4. **Problem Solving**: Ask for help with complex problems and analysis
+
+## 🔧 Troubleshooting
+
+### Error: "Cannot connect to server"
+- Make sure the server is running on `localhost:3000`
+- Check if Node.js is installed: `node --version`
+- Try restarting the server
+
+### Error: "Sorry, I encountered an error"
+- Check your internet connection
+- Verify the Google Gemini API key is valid
+- Look at the server console for detailed error messages
+
+### Server won't start
+- Make sure port 3000 is not in use by another application
+- Try using a different port by setting `PORT=3001 node server.js`
+
+## 📁 File Structure
+
+```
+├── index.html          # Main HTML file
+├── style.css           # Styling and animations
+├── script.js           # Frontend JavaScript
+├── server.js           # Backend server with API proxy
+├── package.json        # Node.js dependencies
+├── start.bat           # Windows start script
+├── test-api.js         # API testing utility
+└── README.md           # This file
+```
+
+## 🔑 API Information
+
+- **Model**: Gemini 1.5 Flash Latest
+- **Endpoint**: `/api/chat` (proxied through local server)
+- **Features**: Text generation, problem solving, code assistance
+
+## 🌟 Tips
+
+- Use specific prompts for better responses
+- Ask follow-up questions to dive deeper
+- Use the quick action buttons as starting points
+- The AI remembers conversation context
+- Clear conversation with `Ctrl+L` for fresh start
+
+## 🛡 Security
+
+- API key is handled server-side for security
+- CORS protection enabled
+- Input validation and error handling
+
+---
+
+**Enjoy your AI Assistant! 🤖**
+
 # 🚀 Full-Stack Animated Website
 
 A modern, full-stack website featuring stunning animations built with React, Node.js, Framer Motion, and Lottie animations.
