@@ -15,7 +15,7 @@ A modern, full-stack website featuring stunning animations built with React, Nod
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** - UI library
+- **React 19** - UI library
 - **Framer Motion** - Animation library
 - **Lottie React** - Lottie animation support
 - **Styled Components** - CSS-in-JS styling
@@ -36,8 +36,9 @@ A modern, full-stack website featuring stunning animations built with React, Nod
 
 ### Installation
 
-1. **Clone or navigate to the project directory**
+1. **Clone the repository**
    ```bash
+   git clone https://github.com/kripanshu1/fullstack-animated-website.git
    cd fullstack-animated-website
    ```
 
